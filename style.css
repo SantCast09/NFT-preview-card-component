@@ -1,0 +1,91 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background: hsl(217, 54%, 11%);
+}
+
+.box {
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+    background: hsl(216, 50%, 16%);
+    box-shadow: 10px 12px 20px hsl(0, 0%, 4%);
+}
+
+#equilibrium {
+    width: 90%;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+
+}
+
+.information h2 {
+    margin: 0px;
+    margin-left: 5%;
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+}
+
+.text {
+    margin-top: 15px;
+    margin-left: 5%;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.price {
+    display: flex;
+    position: relative;
+}
+
+.ether {
+    margin-top: 0px;
+    margin-left: 5%;
+    color: hsl(178, 100%, 50%);
+}
+
+.time {
+    margin-top: 0px;
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+    color: hsl(215, 51%, 70%);
+
+}
+
+.line hr {
+    margin: 10px 5%;
+    border-color: hsl(215, 32%, 27%);
+
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.autor img {
+    width: 40px;
+    margin-left: 5%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+
+}
+
+.autor p {
+    margin-left: 15px;
+    color: hsl(215, 51%, 70%);
+
+}
+
+.autor span {
+    color: #fff;
+}
